@@ -28,9 +28,11 @@ namespace u5_BinaryNumbers_CouperEbbsPicken
         public MainWindow()
         {
             InitializeComponent();
+            // adds the titles
             txtDecimal.Text += "Decimal" + "\r" + "\n";
             txtBinary.Text += "Binary" + "\r" + "\n";
 
+            // runs through numbers 1 - 20 and adds their decimal and binary to their respective lists
             for (int i = 1; i < 21; i++)
             {
                 txtDecimal.Text += i.ToString() + "\r" + "\n";
